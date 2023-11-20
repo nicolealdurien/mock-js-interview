@@ -1,8 +1,16 @@
-# React + Vite
+# Code Emily Mock Interview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Begin by opening the file called "mock-interview.js" inside of the src file.
 
-Currently, two official plugins are available:
+Inside of this file,  you'll find 4 JavaScript exercises. Complete these.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The last question in the mock-interview file is the React portion of the coding challenge. Follow the instructions in the mock-interview.js file to complete this.
+
+## Running the React project:
+
+This is a project set up using Vite
+You can run the project by running the following in your terminal:
+```npm i && npm run dev```
+
+## Extra tips:
+Treat this exercise the same way you would a live coding exercise - set a timer for an hour, talk through the questions, etc. If you get stuck, the Code Emily video walks through the solutions to each of the problems. Feel free to ask questions there as well!
