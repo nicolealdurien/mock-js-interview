@@ -15,6 +15,6 @@ You can run the project by running the following in your terminal:
 ```npm i && npm run dev```
 
 ## Extra tips:
-Treat this exercise the same way you would a live coding exercise - set a timer for an hour, talk through the questions, etc. 
+Treat this exercise the same way you would a live coding exercise: set a timer for an hour, talk through the questions, use the internet for syntax related questions, etc. 
 
 If you get stuck, the Code Emily video walks through the solutions to each of the problems. Feel free to ask questions there as well!
