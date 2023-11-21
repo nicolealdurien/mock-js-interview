@@ -13,20 +13,16 @@ DISCLAIMER: There ARE solutions in the solutions folder of this project. Don't l
  */
 
 // Using the dogs array, write a function returning an array of dogs 3 and older
-export const getDogsThreeOrOlder = (dogsArray) => dogsArray.filter((dog) => dog.age >= 3);
+export const getDogsThreeOrOlder = () => {};
 
 // Using the dogs array, write a function returning an array of all the dog names
-export const getDogNames = (dogsArray) => dogsArray.map((dog) => dog.name);
+export const getDogNames = () => {};
 
 // Using the dogs array, write a function returning the youngest dog
-export const getYoungestDog = (dogsArray) => dogsArray.sort((a, b) => a.age - b.age)[0];
+export const getYoungestDog = () => {};
 
 // Using the dogs array, write a function returning how many times each dog breed shows up in the array
-export const getDogsAmountOfTimes = (dogsArray) =>
-    dogsArray.reduce((acc, dog) => {
-        const breed = dog.breed;
-        return { ...acc, [breed]: (acc[breed] || 0) + 1 };
-    }, {});
+export const getDogsAmountOfTimes = () => {};
 
 /*
 
