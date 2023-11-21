@@ -1,16 +1,12 @@
 /*
 Instructions:
 
-Set a timer for 45 minutes and complete the following JS/React problems.
-
-Start with the 4 JavaScript questions.
-Update the test file, run it, and confirm the tests are passing.
-You can run the tests by running "npm i && npm run test"
+Complete the following 4 JS problems. Update the test file, run it, and confirm the tests are passing.
 
 After completing the JS problems, solve the React problem described at the bottom of this file.
-
-DISCLAIMER: There ARE solutions in the solutions folder of this project. Don't look at these until you are ready!
  */
+
+// { name: 'Alfred', age: 7, breed: 'Pug', breedCode: 'pug' },
 
 // Using the dogs array, write a function returning an array of dogs 3 and older
 export const getDogsThreeOrOlder = (dogsArray) => dogsArray.filter((dog) => dog.age >= 3);
@@ -30,18 +26,15 @@ export const getDogsAmountOfTimes = (dogsArray) =>
 
 /*
 
-/*
-
  This repository is a React app spun up using Vite. You'll see an App.jsx file you can edit and make your own.
  Feel free to add any React components in the assets/components folder
 
- Display a random image for each breed that appears in the above array. Please use code - don't manually do this!
- The "breedCode" in the dog objects should help you here!
+ Display a random image for each breed that appears in the above array. Please use code - don't manually do this.
 
- You'll be using the dog breed API
+ Using the dog breed API
 
  Docs: https://dog.ceo/dog-api/documentation/breed
 
- API URL: https://dog.ceo/api/breed/{dog breed goes here}/images/random
+ API URL: https://dog.ceo/api/breed/{breed}/images/random
 
  */
