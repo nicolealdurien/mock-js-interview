@@ -5,6 +5,7 @@ Begin by opening the file called "mock-interview.js" inside of the src file.
 Inside of this file,  you'll find 4 JavaScript exercises. Complete these. 
 
 Run the following to check your work:
+
 ```npm i && npm run test```
 
 
