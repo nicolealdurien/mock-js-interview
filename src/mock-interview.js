@@ -29,7 +29,6 @@ export const getDogsAmountOfTimes = () => {};
 /*
 
  This repository is a React app spun up using Vite. You'll see an App.jsx file you can edit and make your own.
- Feel free to add any React components in the assets/components folder
 
  Display a random image for each breed that appears in the above array. Please use code - don't manually do this!
  The "breedCode" in the dog objects should help you here!
