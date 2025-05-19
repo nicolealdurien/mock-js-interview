@@ -1,25 +1,17 @@
-# Code Emily Mock Interview
+# Mock React Interview Challenges
 
-Begin by opening the file called "mock-interview.js" inside of the src file.
+Challenges included so far:
 
-Inside of this file,  you'll find 4 JavaScript exercises. Complete these. 
+-   2025-05-19: Code Emily Mock Interview
 
-Run the following to check your work:
+# To Run This Project Locally:
 
-```npm i && npm run test```
+To install the project:
+`npm i`
 
+To start the project after installation:
+`npm run dev`
 
-The last question in the mock-interview file is the React portion of the coding challenge. Follow the instructions in the mock-interview.js file to complete this.
+To run the tests after installation:
 
-## Running the React project:
-
-This is a project set up using Vite.
-
-You can run the project by running the following in your terminal:
-
-```npm i && npm run dev```
-
-## Extra tips:
-Treat this exercise the same way you would a live coding exercise: set a timer for an hour, talk through the questions, use the internet for syntax related questions, etc. 
-
-If you get stuck, the Code Emily video walks through the solutions to each of the problems. Feel free to ask questions there as well!
+`npm run test`
