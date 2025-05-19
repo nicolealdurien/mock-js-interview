@@ -8,21 +8,36 @@ Update the test file, run it, and confirm the tests are passing.
 You can run the tests by running "npm i && npm run test"
 
 After completing the JS problems, solve the React problem described at the bottom of this file.
-
-DISCLAIMER: There ARE solutions in the solutions folder of this project. Don't look at these until you are ready!
  */
 
+import dogs from './dogs.js';
+
 // Using the dogs array, write a function returning an array of dogs 3 and older
-export const getDogsThreeOrOlder = () => {};
+export const getDogsThreeOrOlder = () => {
+    return dogs.filter((dog) => dog.age >= 3);
+};
 
 // Using the dogs array, write a function returning an array of all the dog names
-export const getDogNames = () => {};
+export const getDogNames = () => {
+    return dogs.map((dog) => dog.name);
+};
 
 // Using the dogs array, write a function returning the youngest dog
-export const getYoungestDog = () => {};
+export const getYoungestDog = () => {
+    dogs.sort((a, b) => a.age - b.age);
+    return dogs[0];
+};
 
 // Using the dogs array, write a function returning how many times each dog breed shows up in the array
-export const getDogsAmountOfTimes = () => {};
+export const getDogsAmountOfTimes = () => {
+    let breeds = {};
+
+    dogs.forEach((dog) => {
+        dog.breed in breeds ? (breeds[dog.breed] += 1) : (breeds[dog.breed] = 1);
+    });
+
+    return breeds;
+};
 
 /*
 
