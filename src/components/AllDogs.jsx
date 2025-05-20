@@ -27,6 +27,12 @@ const AllDogs = () => {
         <div style={{ padding: '0px 40px' }}>
             <Link to={'/'}>Go Back Home</Link>
             <h1>Code Emily Mock Interview</h1>
+            <p>
+                See it on{' '}
+                <a href="https://www.youtube.com/watch?v=CU37IxzGsI0" target="_blank">
+                    YouTube
+                </a>
+            </p>
             <p>Instructions: Set a timer for 45 minutes and complete the following JS/React problems.</p>
             <p>
                 Start with the 4 JavaScript questions in mock-interview.js. Update the test file in
